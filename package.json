@@ -1,225 +1,62 @@
 {
-  "name": "react-icons",
-  "version": "5.5.0",
-  "description": "SVG React icons of popular icon packs using ES6 imports",
-  "author": "Goran Gajic",
-  "contributors": [
-    "kamijin_fanta <kamijin@live.jp>"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "module": "lib/index.mjs",
-  "types": "lib/index.d.ts",
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:react-icons/react-icons.git"
+  "name": "news",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.16",
+    "@chakra-ui/react": "^2.4.3",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.7",
+    "@heroicons/react": "^2.0.13",
+    "@mui/material": "^5.13.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.2",
+    "bootstrap": "^5.2.2",
+    "browser-router": "^0.2.0",
+    "form-data": "^4.0.0",
+    "framer-motion": "^7.6.19",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-router-bootstrap": "^0.26.2",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "react-social-icons": "^5.15.0",
+    "swiper": "^8.4.4",
+    "tailwindcss": "^3.2.4",
+    "web-vitals": "^2.1.4"
   },
-  "bugs": {
-    "url": "https://github.com/react-icons/react-icons/issues"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/react-icons/react-icons#readme",
-  "peerDependencies": {
-    "react": "*"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "require": "./index.js",
-      "import": "./index.mjs",
-      "default": "./index.mjs"
-    },
-    "./lib": {
-      "types": "./lib/index.d.ts",
-      "require": "./lib/index.js",
-      "import": "./lib/index.mjs",
-      "default": "./lib/index.mjs"
-    },
-    "./ci": {
-      "types": "./ci/index.d.ts",
-      "require": "./ci/index.js",
-      "import": "./ci/index.mjs",
-      "default": "./ci/index.mjs"
-    },
-    "./fa": {
-      "types": "./fa/index.d.ts",
-      "require": "./fa/index.js",
-      "import": "./fa/index.mjs",
-      "default": "./fa/index.mjs"
-    },
-    "./fa6": {
-      "types": "./fa6/index.d.ts",
-      "require": "./fa6/index.js",
-      "import": "./fa6/index.mjs",
-      "default": "./fa6/index.mjs"
-    },
-    "./io": {
-      "types": "./io/index.d.ts",
-      "require": "./io/index.js",
-      "import": "./io/index.mjs",
-      "default": "./io/index.mjs"
-    },
-    "./io5": {
-      "types": "./io5/index.d.ts",
-      "require": "./io5/index.js",
-      "import": "./io5/index.mjs",
-      "default": "./io5/index.mjs"
-    },
-    "./md": {
-      "types": "./md/index.d.ts",
-      "require": "./md/index.js",
-      "import": "./md/index.mjs",
-      "default": "./md/index.mjs"
-    },
-    "./ti": {
-      "types": "./ti/index.d.ts",
-      "require": "./ti/index.js",
-      "import": "./ti/index.mjs",
-      "default": "./ti/index.mjs"
-    },
-    "./go": {
-      "types": "./go/index.d.ts",
-      "require": "./go/index.js",
-      "import": "./go/index.mjs",
-      "default": "./go/index.mjs"
-    },
-    "./fi": {
-      "types": "./fi/index.d.ts",
-      "require": "./fi/index.js",
-      "import": "./fi/index.mjs",
-      "default": "./fi/index.mjs"
-    },
-    "./lu": {
-      "types": "./lu/index.d.ts",
-      "require": "./lu/index.js",
-      "import": "./lu/index.mjs",
-      "default": "./lu/index.mjs"
-    },
-    "./gi": {
-      "types": "./gi/index.d.ts",
-      "require": "./gi/index.js",
-      "import": "./gi/index.mjs",
-      "default": "./gi/index.mjs"
-    },
-    "./wi": {
-      "types": "./wi/index.d.ts",
-      "require": "./wi/index.js",
-      "import": "./wi/index.mjs",
-      "default": "./wi/index.mjs"
-    },
-    "./di": {
-      "types": "./di/index.d.ts",
-      "require": "./di/index.js",
-      "import": "./di/index.mjs",
-      "default": "./di/index.mjs"
-    },
-    "./ai": {
-      "types": "./ai/index.d.ts",
-      "require": "./ai/index.js",
-      "import": "./ai/index.mjs",
-      "default": "./ai/index.mjs"
-    },
-    "./bs": {
-      "types": "./bs/index.d.ts",
-      "require": "./bs/index.js",
-      "import": "./bs/index.mjs",
-      "default": "./bs/index.mjs"
-    },
-    "./ri": {
-      "types": "./ri/index.d.ts",
-      "require": "./ri/index.js",
-      "import": "./ri/index.mjs",
-      "default": "./ri/index.mjs"
-    },
-    "./fc": {
-      "types": "./fc/index.d.ts",
-      "require": "./fc/index.js",
-      "import": "./fc/index.mjs",
-      "default": "./fc/index.mjs"
-    },
-    "./gr": {
-      "types": "./gr/index.d.ts",
-      "require": "./gr/index.js",
-      "import": "./gr/index.mjs",
-      "default": "./gr/index.mjs"
-    },
-    "./hi": {
-      "types": "./hi/index.d.ts",
-      "require": "./hi/index.js",
-      "import": "./hi/index.mjs",
-      "default": "./hi/index.mjs"
-    },
-    "./hi2": {
-      "types": "./hi2/index.d.ts",
-      "require": "./hi2/index.js",
-      "import": "./hi2/index.mjs",
-      "default": "./hi2/index.mjs"
-    },
-    "./si": {
-      "types": "./si/index.d.ts",
-      "require": "./si/index.js",
-      "import": "./si/index.mjs",
-      "default": "./si/index.mjs"
-    },
-    "./sl": {
-      "types": "./sl/index.d.ts",
-      "require": "./sl/index.js",
-      "import": "./sl/index.mjs",
-      "default": "./sl/index.mjs"
-    },
-    "./im": {
-      "types": "./im/index.d.ts",
-      "require": "./im/index.js",
-      "import": "./im/index.mjs",
-      "default": "./im/index.mjs"
-    },
-    "./bi": {
-      "types": "./bi/index.d.ts",
-      "require": "./bi/index.js",
-      "import": "./bi/index.mjs",
-      "default": "./bi/index.mjs"
-    },
-    "./cg": {
-      "types": "./cg/index.d.ts",
-      "require": "./cg/index.js",
-      "import": "./cg/index.mjs",
-      "default": "./cg/index.mjs"
-    },
-    "./vsc": {
-      "types": "./vsc/index.d.ts",
-      "require": "./vsc/index.js",
-      "import": "./vsc/index.mjs",
-      "default": "./vsc/index.mjs"
-    },
-    "./tb": {
-      "types": "./tb/index.d.ts",
-      "require": "./tb/index.js",
-      "import": "./tb/index.mjs",
-      "default": "./tb/index.mjs"
-    },
-    "./tfi": {
-      "types": "./tfi/index.d.ts",
-      "require": "./tfi/index.js",
-      "import": "./tfi/index.mjs",
-      "default": "./tfi/index.mjs"
-    },
-    "./rx": {
-      "types": "./rx/index.d.ts",
-      "require": "./rx/index.js",
-      "import": "./rx/index.mjs",
-      "default": "./rx/index.mjs"
-    },
-    "./pi": {
-      "types": "./pi/index.d.ts",
-      "require": "./pi/index.js",
-      "import": "./pi/index.mjs",
-      "default": "./pi/index.mjs"
-    },
-    "./lia": {
-      "types": "./lia/index.d.ts",
-      "require": "./lia/index.js",
-      "import": "./lia/index.mjs",
-      "default": "./lia/index.mjs"
-    }
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
